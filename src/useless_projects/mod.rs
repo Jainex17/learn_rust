@@ -1,7 +1,9 @@
-// mod calculator;
-mod read_write_file;
+// mod cli_calculator;
+// mod read_write_file;
+mod cli_weather;
 
 pub fn main(){
-    // calculator::main();
-    read_write_file::main();
+    // cli_calculator::main();
+    // read_write_file::main();
+    cli_weather::main();
 }
