@@ -1,8 +1,7 @@
-mod calculator;
+// mod calculator;
+mod read_write_file;
 
 pub fn main(){
-
-    println!("Useless Projects :)");
-
-    calculator::main();
+    // calculator::main();
+    read_write_file::main();
 }
