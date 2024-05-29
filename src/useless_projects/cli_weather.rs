@@ -26,8 +26,6 @@ fn get_weather(url: &String) -> Result<WeatherResponse, reqwest::Error>{
     Ok(res)
 }
 
-
-
 pub fn main(){
     
     println!("Welcome to the weather app!");
